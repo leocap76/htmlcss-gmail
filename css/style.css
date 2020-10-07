@@ -1,0 +1,97 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-image: url("/Users/leonardocapogna/Desktop/gmail/img/sfondolegno.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+nav{
+  margin-top: 10px;
+}
+
+.mail-arrived{
+  background-color: white;
+  border: 1px solid black;
+  }
+
+.mail-arrived div, .mail-arrived input {
+  display: inline-block;
+
+}
+
+.container {
+  width: 80%;
+  margin: 10%;
+}
+
+#nav-testo{
+  font-size: 30px;
+}
+
+#cerchio{
+  display: inline-block;
+  background-color: orange;
+  border-color: black;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+header{
+  border-bottom: 2px solid white;
+}
+
+img {
+  width: 100px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+h1{
+  display: inline-block;
+  color: white;
+  margin-bottom: 10px;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+p{
+  color: white;
+}
+
+.right{
+color: grey;
+}
+
+.left{
+font-weight: bold;
+}
+
+.unread div, .unread input{
+  display: inline-block;
+}
+
+.unread{
+  background-color: lightgray;
+  border: 1px solid black;
+}
+footer{
+  margin-top: 10px;
+  border-top: 2px solid white;
+  color: white;
+  text-align: center;
+}
+
+#footer-name{
+  font-size: 30px;
+}
+
+#footer-text{
+  margin-top: 10px;
+}
