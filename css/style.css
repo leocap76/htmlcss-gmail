@@ -1,9 +1,11 @@
 * {
+  box-sizing: border-box;
   margin: auto;
+  font-family:sans-serif;
 }
 
 body {
-  background-image: url("/Users/leonardocapogna/Desktop/gmail/img/sfondolegno.jpeg");
+  background-image: url("https://i.pinimg.com/originals/f8/0b/ac/f80bacc59103278078cd97c906576928.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +23,8 @@ nav{
 
 .mail-arrived div, .mail-arrived input {
   display: inline-block;
+  cursor: pointer;
+  padding: 5px;
 
 }
 
@@ -29,8 +33,24 @@ nav{
   margin: 10%;
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.star{
+  color: goldenrod;
+}
+
+input{
+  cursor: pointer;
+  padding: 5px;
+}
 #nav-testo{
   font-size: 30px;
+}
+
+.orange_circle {
+  padding: 20px;
 }
 
 #cerchio{
@@ -42,6 +62,7 @@ nav{
   width: 40px;
   text-align: center;
   vertical-align: middle;
+  cursor: pointer;
 }
 header{
   border-bottom: 2px solid white;
@@ -51,6 +72,7 @@ img {
   width: 100px;
   display: inline-block;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 h1{
@@ -59,6 +81,7 @@ h1{
   margin-bottom: 10px;
   vertical-align: top;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 p{
@@ -75,6 +98,8 @@ font-weight: bold;
 
 .unread div, .unread input{
   display: inline-block;
+  cursor: pointer;
+  padding: 5px;
 }
 
 .unread{
@@ -93,5 +118,7 @@ footer{
 }
 
 #footer-text{
+  cursor: pointer;
+  color:darkslategrey;
   margin-top: 10px;
 }
